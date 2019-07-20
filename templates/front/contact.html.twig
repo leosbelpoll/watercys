@@ -7,28 +7,22 @@
 			<form id="frmContacto" name="frmContacto" action="inc/procesa-cotizacion.php" method="post">
 				<fieldset>
 					<div class="form-group">
-						<label>Tipo:</label>
+						<label>{% trans %}navbar.products{% endtrans %} / {% trans %}navbar.services{% endtrans %}:</label>
 						<select class="form-control" name="tipo" id="tipo">
-							<option value="" selected="selected">-- Seleccione --</option>
-							<option value="Cotización Potabilización">Cotización Potabilización</option>
-							<option value="Cotización Aguas Servidas">Cotización Aguas Servidas</option>
-							<option value="Cotización Riles">Cotización Riles</option>
-							<option value="Cotización Olores">Cotización Olores</option>
-							<option value="Cotización Alcantarillado por Vacío">Cotización Alcantarillado por Vacío</option>
-							<option value="Cotización Biogas">Cotización Biogas</option>
-							<option value="Otros">Otros</option>
+							<option value="" selected="selected">-- {% trans %}select{% endtrans %} --</option>
+							<option value="Producto / Servicio-1">{% trans %}navbar.products{% endtrans %} / {% trans %}navbar.services{% endtrans %}-1</option>
+							<option value="Producto / Servicio-2">{% trans %}navbar.products{% endtrans %} / {% trans %}navbar.services{% endtrans %}-2</option>
+							<option value="Producto / Servicio-3">{% trans %}navbar.products{% endtrans %} / {% trans %}navbar.services{% endtrans %}-3</option>
+							<option value="Producto / Servicio-4">{% trans %}navbar.products{% endtrans %} / {% trans %}navbar.services{% endtrans %}-4</option>
+							<option value="Producto / Servicio-5">{% trans %}navbar.products{% endtrans %} / {% trans %}navbar.services{% endtrans %}-5</option>
 						</select>
 					</div>
 					<div class="form-group">
-						<label>Producto / Servicio:</label>
-						<input class="form-control" name="producto" type="text" id="producto" value="">
-					</div>
-					<div class="form-group">
-						<label>Empresa:</label>
+						<label>{% trans %}company{% endtrans %} :</label>
 						<input class="form-control" name="empresa" type="text" id="empresa">
 					</div>
 					<div class="form-group">
-						<label>Nombre Contacto :</label>
+						<label>{% trans %}contact-name{% endtrans %} :</label>
 						<input class="form-control" name="nombre" type="text" id="nombre">
 					</div>
 					<div class="form-group">
@@ -36,19 +30,19 @@
 						<input class="form-control" name="email" type="text" id="email">
 					</div>
 					<div class="form-group">
-						<label>Teléfono :</label>
+						<label>{% trans %}phone{% endtrans %} :</label>
 						<input class="form-control" name="telefono" type="text" id="telefono">
 					</div>
 					<div class="form-group">
-						<label>Dirección :</label>
+						<label>{% trans %}addres{% endtrans %} :</label>
 						<input class="form-control" name="direccion" type="text" id="direccion">
 					</div>
 					<div class="form-group">
-						<label>Ciudad :</label>
+						<label>{% trans %}city{% endtrans %} :</label>
 						<input class="form-control" name="ciudad" type="text" id="ciudad">
 					</div>
 					<div class="form-group">
-						<label>Comentarios :</label>
+						<label>{% trans %}comments{% endtrans %} :</label>
 						<textarea class="form-control" name="comentarios" rows="3" id="comentarios"></textarea>
 					</div>
 					<br>
@@ -63,7 +57,7 @@
 			</form>
 		</div>
 		<div class="col-md-6 d-none d-md-block" >
-			<h1>¿Qué se necesita para contactarnos?</h1>
+			<h1>{% trans %}contact-sumary{% endtrans %}</h1>
 		</div>
 	</div>
 </div>
