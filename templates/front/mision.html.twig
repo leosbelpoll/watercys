@@ -1,7 +1,23 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <div class="container">
-        <h2>{% trans %}navbar.mision{% endtrans %}</h2>
-    </div>
+<div class="container">
+	<div class="row">
+		<!-- Mision -->
+		<div class="col-12 col-md-6">
+			<h2>{% trans %}navbar.mision{% endtrans %}</h2>
+			<h4>{% trans %}mision-vision.mision{% endtrans %}</h4>	
+		</div>
+		<!-- Vision -->
+		<div class="col-12 col-md-6">
+			<h2>{% trans %}navbar.vision{% endtrans %}</h2>
+			<h4>{% trans %}mision-vision.vision{% endtrans %}</h4>	
+		</div>
+		<div class="col-12">
+			<h2>{% trans %}navbar.values{% endtrans %}</h2>
+			<h4>{% trans %}mision-vision.values{% endtrans %}</h4>	
+		</div>
+	</div>
+</div>
 {% endblock %}
+

@@ -40,26 +40,11 @@ class FrontController extends AbstractController
     }
 
     /**
-    * @Route("/vision", name="vision")
-    */
-    public function vision()
-    {
-        return $this->render('front/vision.html.twig');
-    }
-
-    /**
     * @Route("/products", name="products")
     */
     public function products()
     {
         return $this->render('front/products.html.twig');
     }
-
-    /**
-    * @Route("/services", name="services")
-    */
-    public function services()
-    {
-        return $this->render('front/services.html.twig');
-    }
 }
+

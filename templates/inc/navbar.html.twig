@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-sm navbar-dark bg-primary mb-3">
     <div class="container">
-        <a href="/" class="navbar-brand">WaterCYS</a>
+        <a href="/" class="navbar-brand">{% trans %}company-name{% endtrans %}</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
             <span class="navbar-toggler-icon"></span>
@@ -18,10 +18,7 @@
                     <a href="/contact" class="nav-link">{% trans %}navbar.contact{% endtrans %}</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/mision" class="nav-link">{% trans %}navbar.mision{% endtrans %}</a>
-                </li>
-                <li class="nav-item">
-                    <a href="/vision" class="nav-link">{% trans %}navbar.vision{% endtrans %}</a>
+                    <a href="/mision" class="nav-link">{% trans %}navbar.mision{% endtrans %} - {% trans %}navbar.vision{% endtrans %}</a>
                 </li>
                 <li class="nav-item">
                     <a href="/products" class="nav-link">{% trans %}navbar.products{% endtrans %} - {% trans %}navbar.services{% endtrans %}</a>

@@ -1,8 +1,32 @@
+company-name: Watercys Ingeniería Ambiental
 navbar:
     home: Inicio
     references: Referencias
     contact: Contacto
     mision: Misión
     vision: Visión
+    values: Valores
     products: Productos
     services: Servicios
+
+contact-sumary: ¿Qué se necesita para contactarnos?
+select: Seleccione
+company: Empresa
+contact-name: Nombre Contacto
+phone: Teléfono
+address: Dirección
+city: Ciudad
+comments: Comentarios
+
+mision-vision:
+    mision: Ofrecer a nuestros clientes servicios de asesorías y soluciones integrales en el área ambiental.
+    vision: Ser un referente en Chile en el área ambiental, entregando un servicio de excelencia para
+            convertirnos en colaboradores estratégicos de nuestros clientes.
+    values: |
+      Profesionalismo: grupo de trabajo con alto conocimientos y ética profesional.</br>
+      Compromiso: cumplimos con lo comprometido.</br>
+      Honestidad: aseguramos un trato transparente con nuestros clientes y grupos de interés.</br>
+      Confidencialidad: garantizamos la reserva de la información sensible de nuestros clientes.</br>
+      Seguridad: velamos por la integridad de las personas y el cuidado de medio ambiente.</br>
+      Respeto: orientamos un trato de igualitario a todas las personas.</br>
+
