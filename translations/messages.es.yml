@@ -1,4 +1,22 @@
 company-name: Watercys Ingeniería Ambiental
+
+home:
+    description: |
+      Watercys Ingeniería Ambiental SPA es especialista en dar
+      servicios de ingeniería, diseño, montaje, puesta en marcha,
+      operación, supervisión, así como a empresas que cuenten con plantas orientadas 
+      al tratamiento de aguas residuales domésticas e industriales; agua potable; 
+      manejo de lodos, sistemas de aireación; tratamiento de olores entre otras especialidades.</br>
+      </br>
+      Watercys se diferencia de la competencia por tener la capacidad de abordar
+      problemas de distinta magnitud:</br>
+      </br>
+      -Orientada a cubrir los requerimientos de capacitación, supervisión y asesoría en plantas de tratamiento.</br>
+      </br>
+      -Diseño de la totalidad o partes de sistemas de tratamiento de agua potable, servidas o RILes.</br>
+      </br>
+      -Solución a problemas específicos de plantas en explotación.
+
 navbar:
     home: Inicio
     references: Referencias
@@ -9,14 +27,31 @@ navbar:
     products: Productos
     services: Servicios
 
-contact-sumary: ¿Qué se necesita para contactarnos?
+contact-sumary: |
+  <h3>Watercys posee entre su personal permanente a profesionales con amplia y
+  probada experiencia en:</h3>
+  </br>
+  <h5>-Ingeniería conceptual.</h5></br>
+  </br>
+  <h5>-Diseño de plantas de tratamiento de aguas servidas urbanas e industrial.</h5></br>
+  </br>
+  <h5>-Puesta en marcha, marcha blanca y operación de plantas de tratamiento.</h5></br>
+  </br>
+  <h5>-Asesoría en operación y capacitación de personal.</h5></br>
+  </br>
+  <h5>-Levantamiento de información en plantas existentes.</h5></br>
+  </br>
+  <h5>-Tratamiento de olores.</h5>
+
 select: Seleccione
 company: Empresa
+turn-company: Giro
 contact-name: Nombre Contacto
 phone: Teléfono
 address: Dirección
 city: Ciudad
 comments: Comentarios
+success-cotization: Cotización enviada correctamente!!
 
 mision-vision:
     mision: Ofrecer a nuestros clientes servicios de asesorías y soluciones integrales en el área ambiental.
@@ -30,3 +65,58 @@ mision-vision:
       Seguridad: velamos por la integridad de las personas y el cuidado de medio ambiente.</br>
       Respeto: orientamos un trato de igualitario a todas las personas.</br>
 
+references:
+    button-more: Mas
+    cala-name: Construcciones Ambientales Latinoamérica
+    cala-sumary: |
+      Es una empresa especialista en diseño de procesos e ingeniería hidráulica aplicada para tratamiento de agua. 
+      Desarrollamos proyectos de conducción y plantas de tratamiento de agua potable, servidas e industrial, 
+      aplicando tecnología de vanguardia e innovación.
+    essbio-name: Essbio
+    essbio-sumary: |
+      Es una empresa que provee soluciones y servicios de alta calidad en el ciclo integral del agua (agua potable, 
+      alcantarillado y descontaminación de aguas servidas) y en la gestión integral de residuos.
+    resister-name: Resister
+    resister-sumary: |
+      Es una empresa dedicada a la gestión de residuos.  A través del reciclaje, 
+      la revalorización y la reutilización de ellos, ayudamos a mitigar el impacto ambiental de las empresas productivas, 
+      un tema cada vez más sensible para su continuidad operacional y su reputación.
+    revesol-name: Revesol
+    revesol-sumary: |
+      Es una empresa com más de 40 años de experiencia, dedicados a la fabricación de componentes para el transporte de materiales
+      y equipos oleohidraúlicos. Ha desarrollado proyectos tanto en Brasil como en Asia, consolidando la intercomercialización 
+      de la compañía, sumando su precencia en Chile y Perú.
+    volta-name: Volta
+    volta-sumary: |
+      Es una empresas con amplia trayectoria en el manejo de distintos tipos de residuos, lo que nos permite ofrecer soluciones en transporte, 
+      recolección, valorización, reciclaje, tratamiento y disposición final.
+    crtg-name: China Railway Tunnel Group
+    crtg-sumary: |
+      Es una empresa de construcción china que flota en las bolsas de valores de Shanghai y Hong Kong. 
+      El principal accionista de la empresa es la empresa estatal de ingeniería ferroviaria de China.
+    lya-name: L&A Ingeniería y Proyectos
+    lya-sumary: |
+      Es una empresa dedicada a la prestación de servicios de ingeniería de consulta, asesoramiento en el estudio y desarrollo de proyectos, 
+      gerenciamiento de proyectos ITO, apoyo durante la etapa de construcción, comisionamiento y puesta en servicio.
+    bio-name: Biodiversa
+    bio-sumary: |
+      Es una empresa que entrega soluciones integrales, innovadoras y confiables a nuestros clientes. Somos una filial de Essbio, 
+      creada para desarrollar oportunidades de mercado en servicios ambientales. 
+      En 7 años hemos generado una plataforma de servicio en agua, residuos y proyectos.
+    albe-name: Albemarle
+    albe-sumary: |
+      Es una empresa global líder en el desarrollo, fabricación y comercialización de productos químicos tecnológicamente avanzados y de alto valor agregado. 
+      En Chile se dedica, desde hace casi 40 años, a la extracción y procesamiento de salmueras y a la producción y despacho de sales de litio y sus derivados.
+
+services:
+    ing-name: Ingeniería y Diseño
+    ing-sumary: |
+      Desarrollo de ingeniería conceptual, ingeniería básica e ingeniería de detalle de plantas de tratamiento para aguas servidas, industriales,
+      potable y tratamiento de olores según los requerimientos del cliente.
+    mont-name: Montaje y Puesta en Marcha
+    mont-sumary: |
+      Desarrollo y supervisión durante montaje y puesta en marcha de plantas de tratamiento de agua y olores.
+    op-name: Operación de Plantas
+    op-sumary: |
+      Prestamos servicios de operación y mantención de las plantas de tratamiento.
+      Asesoría a nuestros clientes en el uso de nuevas tecnologías para los procesos de sistemas de tratamiento.

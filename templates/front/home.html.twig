@@ -1,17 +1,171 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <div class="jumbotron" style="margin: -16px 0">
-        <h1 class="display-3">{% trans %}company-name{% endtrans %}</h1>
-        <p class="lead">
-            This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
-        </p>
-        <hr class="my-4">
-        <p>
-            It uses utility classes for typography and spacing to space content out within the larger container.
-        </p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </p>
+<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel" style="margin: -50px 0">
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+        <li data-target="#carousel-example-2" data-slide-to="2"></li>
+        <li data-target="#carousel-example-2" data-slide-to="3"></li>
+        <li data-target="#carousel-example-2" data-slide-to="4"></li>
+        <li data-target="#carousel-example-2" data-slide-to="5"></li>
+        <li data-target="#carousel-example-2" data-slide-to="6"></li>
+        <li data-target="#carousel-example-2" data-slide-to="7"></li>
+        <li data-target="#carousel-example-2" data-slide-to="8"></li>
+        <li data-target="#carousel-example-2" data-slide-to="9"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <div class="view">
+                <img class="d-block w-100" src="/img/JPG/CAR1.jpg"
+                    alt="First slide">
+                <div class="mask rgba-black-light"></div>
+            </div>
+                <div class="carousel-caption">
+                    <h3 class="h3-responsive"></h3>
+                    <p> </p>
+                </div>
+        </div>
+        <div class="carousel-item">
+          <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="/img/JPG/CAR2.jpg"
+                alt="Second slide">
+                <div class="mask rgba-black-strong"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive"></h3>
+                <p> </p>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="/img/JPG/CAR3.jpg"
+                alt="Third slide">
+                <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive"></h3>
+                <p> </p>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="/img/JPG/CAR4.jpg"
+                alt="Third slide">
+                <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive"></h3>
+                <p> </p>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="/img/JPG/CAR5.jpg"
+                alt="Third slide">
+                <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive"></h3>
+                <p> </p>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="/img/JPG/CAR6.jpg"
+                alt="Third slide">
+                <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive"></h3>
+                <p> </p>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="/img/JPG/CAR7.jpg"
+                alt="Third slide">
+                <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive"></h3>
+                <p> </p>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="/img/JPG/CAR8.jpg"
+                alt="Third slide">
+                <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive"></h3>
+                <p> </p>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="/img/JPG/CAR9.jpg"
+                alt="Third slide">
+                <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive"></h3>
+                <p> </p>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="/img/JPG/CAR10.jpg"
+                alt="Third slide">
+                <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive"></h3>
+                <p> </p>
+            </div>
+        </div>
     </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+
+<div class="jumbotron" style="margin: 20px 0 -45px 0">
+    <h1 class="display-3">{% trans %}company-name{% endtrans %}</h1>
+    
+    </br>
+    <p class="lead">
+       {% trans %}home.description{% endtrans %}
+    </p>
+    <hr class="my-4">
+    <p>
+        
+    </p>
+    <p class="lead">
+        <!--<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>-->
+    </p>
+</div>
 {% endblock %}
