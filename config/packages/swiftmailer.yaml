@@ -1,3 +1,24 @@
 swiftmailer:
     url: '%env(MAILER_URL)%'
     spool: { type: 'memory' }
+
+#Neos:
+#  SwiftMailer:
+#    transport:
+#      type: 'Swift_SendmailTransport'
+#      arguments: ~
+#      options: []
+
+# Example settings for sending emails via SMTP / SSL:
+# Encryption can be set to either tls or ssl
+#
+#SwiftMailer:
+#   transport:
+#     type: 'Swift_SmtpTransport'
+#     options:
+#       host: 'warlock.sinc.cl'
+#       port: 465
+#       encryption: 'ssl'
+#       username: 'contacto@watercys.cl'
+#       password: 'Contactoweb0.0'
+#       localDomain: 'watercys.cl'

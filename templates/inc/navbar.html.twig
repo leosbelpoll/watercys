@@ -1,7 +1,9 @@
-<nav class="navbar navbar-expand-sm navbar-dark bg-primary mb-3">
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary mb-3 {{ app.session.flashbag.peek('success')|length > 0 ? '' : 'mb-5' }}">
     <div class="container">
+            <img class="" src="/img/logo.png" width='20%' height='20%' alt="logo">
+        <!--
         <a href="/" class="navbar-brand">{% trans %}company-name{% endtrans %}</a>
-
+        -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -9,19 +11,19 @@
         <div class="collapse navbar-collapse" id="mobile-nav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a href="/" class="nav-link">{% trans %}navbar.home{% endtrans %}</a>
+                    <a href="/" class="nav-link"><h5>{% trans %}navbar.home{% endtrans %}</h5></a>
                 </li>
                 <li class="nav-item">
-                    <a href="/references" class="nav-link">{% trans %}navbar.references{% endtrans %}</a>
+                    <a href="/references" class="nav-link"><h5>{% trans %}navbar.references{% endtrans %}</h5></a>
                 </li>
                 <li class="nav-item">
-                    <a href="/contact" class="nav-link">{% trans %}navbar.contact{% endtrans %}</a>
+                    <a href="/contact" class="nav-link"><h5>{% trans %}navbar.contact{% endtrans %}</h5></a>
                 </li>
                 <li class="nav-item">
-                    <a href="/mision" class="nav-link">{% trans %}navbar.mision{% endtrans %} - {% trans %}navbar.vision{% endtrans %}</a>
+                    <a href="/mision" class="nav-link"><h5>{% trans %}navbar.mision{% endtrans %} - {% trans %}navbar.vision{% endtrans %}</h5></a>
                 </li>
                 <li class="nav-item">
-                    <a href="/products" class="nav-link">{% trans %}navbar.products{% endtrans %} - {% trans %}navbar.services{% endtrans %}</a>
+                    <a href="/products" class="nav-link"><h5>{% trans %}navbar.products{% endtrans %} - {% trans %}navbar.services{% endtrans %}</h5></a>
                 </li>
             </ul>
         </div>
